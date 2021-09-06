@@ -1,0 +1,25 @@
+{
+  "name": "pbinder-backend",
+  "version": "1.0.0",
+  "description": "This is a pbinder backend application.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarivamsi/pbinder-backend.git"
+  },
+  "author": "Vamsi Charan Adari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarivamsi/pbinder-backend/issues"
+  },
+  "homepage": "https://github.com/adarivamsi/pbinder-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  }
+}
