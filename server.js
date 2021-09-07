@@ -1,13 +1,13 @@
 import express from "express";
 import mongoose from "mongoose";
-import { db_password } from "./constants.js";
+import { db_pass } from "./constants.js";
 import cards from "./dbCards.js";
 import cors from "cors";
 
 // App Config
 const app = express();
 const port = process.env.PORT || 8000;
-const connection_url = `mongodb+srv://admin:${db_password}@cluster0.pea9o.mongodb.net/pbinder?retryWrites=true&w=majority`;
+const connection_url = `mongodb+srv://admin:${db_pass}@cluster0.pea9o.mongodb.net/pbinder?retryWrites=true&w=majority`;
 
 // Middleware
 app.use(express.json());
